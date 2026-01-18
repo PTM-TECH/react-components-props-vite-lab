@@ -1,6 +1,7 @@
 ## Underreacted Blog
 
 A simple React blog application that displays posts, along with a header and about section. Built with reusable components and designed to showcase **prop-based rendering**, **component hierarchy**, and basic React features.
+
 ## Blog Image
 
 ![Blog Image](images/blogg.png)
@@ -14,14 +15,17 @@ A simple React blog application that displays posts, along with a header and abo
 - **Default Props:** Ensures placeholder image and date are shown if no data is provided.
 - **Responsive Design:** Built to be simple and responsive using standard CSS (can be enhanced with Tailwind CSS or other styling libraries).
 
-
 ## Project Structure
 
-├── About.jsx
+├── About
+│   └── About.jsx
 ├── App.jsx
-├── Article.jsx
-├── ArticleList.jsx
-└── Header.jsx
+├── ArticleList
+│   ├── Article
+│   │   └── Article.jsx
+│   └── ArticleList.jsx
+└── Header
+    └── Header.jsx
 
 ## How to Install and Use
 
