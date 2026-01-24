@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-import Article from "../components/ArticleList/Article/Article";
+import Article from "../components/ArticleList/Article/Article.jsx";
 
 test("renders a <article> element", () => {
   const { container } = render(
