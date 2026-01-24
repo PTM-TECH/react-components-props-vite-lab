@@ -1,4 +1,4 @@
-import Article from "./Article/Article";
+import Article from "./Article";
 
 function ArticleList({ posts }) {
   return (
