@@ -18,14 +18,14 @@ A simple React blog application that displays posts, along with a header and abo
 ## Project Structure
 
 ├── About
-│   └── About.jsx
+│ └── About.jsx
 ├── App.jsx
 ├── ArticleList
-│   ├── Article
-│   │   └── Article.jsx
-│   └── ArticleList.jsx
+│ ├── Article
+│ │ └── Article.jsx
+│ └── ArticleList.jsx
 └── Header
-    └── Header.jsx
+└── Header.jsx
 
 ## How to Install and Use
 
@@ -39,6 +39,7 @@ A simple React blog application that displays posts, along with a header and abo
 (cd react-components-props-vite-lab)
 -Install dependencies (npm install)
 -Run the app (npm run dev)
+-Run npm test
 
 ## Technologies Used
 
